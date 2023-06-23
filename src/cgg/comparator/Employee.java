@@ -11,12 +11,22 @@ public class Employee {
 		this.age = age;
 	}
 
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getName() {
 		return name;
 	}
 
 	public int getAge() {
 		return age;
+	}
+
+	
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override
